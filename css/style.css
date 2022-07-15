@@ -317,10 +317,11 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   height: 16px;
   align-content: center;
   margin-right: 10px;
-  fill: #24f7d7;
+  fill: #757575;
 }
-.icon-phone:hover {
-  fill: #ff1414;
+.icon-phone:hover,
+.icon-email:hover {
+  fill: var(--first-brand-color);
 }
 
 .icon-descriptions {
@@ -333,7 +334,7 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   height: 20px;
   margin-left: 12.7px;
   margin-top: 12px;
-  fill: #cb0d0d;
+  fill: #afb1b8;
 }
 .socials-background {
   width: 44px;
@@ -367,6 +368,9 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+}
+.our-client-icon:hover {
+  fill: var(--first-brand-color);
 }
 .footer-flex {
   display: flex;
