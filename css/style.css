@@ -116,7 +116,7 @@ nav {
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
-  background-image: ("images/background.jpg");
+  background-image: url(../images/background.jpg);
 }
 .primary-header {
   font-weight: 900;
