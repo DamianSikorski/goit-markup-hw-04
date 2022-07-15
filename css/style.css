@@ -305,34 +305,39 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 }
 /* opisy sekcji svg*/
 
+/*style dla telefonu i emaila */
 .contact-icon {
   fill: currentColor;
   margin-right: 10px;
 }
-.email-in-header:hover {
-  fill: var(--first-brand-color);
-}
 
+/*style dla drugiej skecji*/
 .icon-descriptions {
-  width: 270px;
-  height: 120px;
   margin-bottom: 30px;
 }
-.team-socials {
-  width: 20px;
-  height: 20px;
-  margin-left: 12.7px;
-  margin-top: 12px;
+
+/* style dla skecji nasz zespół */
+.social-section {
+  padding-bottom: 30px;
+}
+
+.social-icon {
   fill: #afb1b8;
 }
-.socials-background {
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--white-color);
+}
+
+.social-icon-background {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
   margin-top: 16px;
 }
-.socials-background:hover {
+.social-icon-background:hover {
   background-color: #2196f3;
 }
 .social-list {
@@ -381,7 +386,4 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   margin-bottom: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.socials-section {
-  padding-bottom: 30px;
 }
