@@ -113,10 +113,10 @@ nav {
 
 /*pierwsza sekcja*/
 .first-section {
-  background: var(--second-brand-color);
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
+  background-image: ("images/background.jpg");
 }
 .primary-header {
   font-weight: 900;
@@ -341,8 +341,10 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   padding: 12px;
   margin-top: 16px;
 }
+.social-icon-background:hover > svg *,
 .social-icon-background:hover {
-  background-color: #2196f3;
+  background-color: var(--first-brand-color);
+  fill: var(--white-color);
 }
 
 /*sekcja naszycgh klientów */
