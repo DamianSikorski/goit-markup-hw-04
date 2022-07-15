@@ -315,7 +315,7 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .icon-phone {
   width: 10px;
   height: 16px;
-  align-content: center;
+
   margin-right: 10px;
   fill: #757575;
 }
@@ -363,8 +363,6 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   gap: 30px;
 }
 .our-client-icon {
-  margin-left: 32px;
-  margin-top: 16px;
   width: 106px;
   height: 60px;
   fill: #afb1b8;
@@ -392,4 +390,7 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   margin-bottom: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.socials-section {
+  padding-bottom: 30px;
 }
