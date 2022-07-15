@@ -333,8 +333,7 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
+  padding: 12px;
   margin-top: 16px;
 }
 .social-icon-background:hover {
