@@ -303,6 +303,8 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .main-section {
   padding-bottom: 94px;
 }
+/* opisy sekcji svg*/
+
 .icon-email {
   width: 16px;
   height: 12px;
@@ -321,9 +323,6 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   fill: #ff1414;
 }
 
-.icon-in-header1:hover {
-  fill: #2196f3;
-}
 .icon-descriptions {
   width: 270px;
   height: 120px;
