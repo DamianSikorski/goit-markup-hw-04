@@ -320,6 +320,11 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .social-section {
   padding-bottom: 30px;
 }
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 
 .social-icon {
   fill: #afb1b8;
@@ -339,12 +344,12 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .social-icon-background:hover {
   background-color: #2196f3;
 }
-.social-list {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
 
+/*sekcja naszycgh klientów */
+.our-clients-list {
+  display: flex;
+  gap: 30px;
+}
 .our-clients-background {
   width: 170px;
   height: 92px;
@@ -354,29 +359,20 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   justify-content: center;
   display: flex;
 }
-.our-clients-list {
-  display: flex;
-  gap: 30px;
-}
 
 .our-client-icon {
   fill: #afb1b8;
 }
-.our-client-icon:hover {
+.our-client-icon:hover,
+.our-client-icon:focus {
   fill: var(--first-brand-color);
 }
+
+/* stylizacja ikon w footer*/
+
 .footer-flex {
   display: flex;
   gap: 80px;
-}
-.socials-background-footer {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  height: 44px;
-  width: 44px;
-}
-.socials-background-footer:hover {
-  background: var(--first-brand-color);
 }
 .socials-header {
   font-weight: 700;
@@ -385,4 +381,18 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   margin-bottom: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.social-background-footer {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+}
+.social-background-footer:hover,
+.social-background-footer:focus {
+  background: var(--first-brand-color);
+}
+.social-in-footer {
+  fill: var(--white-color);
 }
