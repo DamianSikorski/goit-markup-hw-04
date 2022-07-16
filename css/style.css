@@ -353,7 +353,9 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   background: rgba(255, 255, 255, 0.1);
 }
 .social-icon-background:hover > svg *,
-.social-icon-background:hover {
+.social-icon-background:hover,
+.social-icon-background:focus > svg *,
+.social-icon-background:focus {
   background-color: var(--first-brand-color);
   fill: var(--white-color);
 }
@@ -378,7 +380,9 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 }
 
 .our-clients-background:hover > svg *,
-.our-clients-background:hover {
+.our-clients-background:hover,
+.our-clients-background:focus > svg *,
+.our-clients-background:focus {
   border-color: var(--first-brand-color);
   fill: var(--first-brand-color);
 }
