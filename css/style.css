@@ -403,6 +403,6 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .social-background-footer:focus {
   background: var(--first-brand-color);
 }
-.social-in-footer {
+.social-icon-in-footer {
   fill: var(--white-color);
 }
