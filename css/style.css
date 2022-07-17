@@ -18,6 +18,7 @@ body {
   --paragraph-color: #757575;
   --brand-background-color: #f5f4fa;
   --second-brand-color: #2f303a;
+  --svgs-main-color: #afb1b8;
 }
 a {
   text-decoration: none;
@@ -340,8 +341,9 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   justify-content: center;
 }
 
-.social-icon {
-  fill: #afb1b8;
+.social-icon,
+.our-client-icon {
+  fill: var(--svgs-main-color);
 }
 
 .social-icon-background {
@@ -374,10 +376,6 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   align-items: center;
   justify-content: center;
   display: flex;
-}
-
-.our-client-icon {
-  fill: #afb1b8;
 }
 
 .our-clients-background:hover > svg *,
