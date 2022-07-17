@@ -314,6 +314,7 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .list-of-images li figure:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .main-section {
   padding-bottom: 94px;
@@ -344,23 +345,6 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 .social-icon,
 .our-client-icon {
   fill: var(--svgs-main-color);
-}
-
-.social-icon-background {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  padding: 12px;
-  margin-top: 16px;
-  display: block;
-  background: rgba(255, 255, 255, 0.1);
-}
-.social-icon-background:hover > svg *,
-.social-icon-background:hover,
-.social-icon-background:focus > svg *,
-.social-icon-background:focus {
-  background-color: var(--first-brand-color);
-  fill: var(--white-color);
 }
 
 /*sekcja naszycgh klientów */
@@ -400,17 +384,25 @@ do header i footer został wykorzystane te same style co do strony głównej*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.social-background-footer {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  height: 44px;
+
+.social-icon-background {
   width: 44px;
+  height: 44px;
+  border-radius: 50%;
   padding: 12px;
+  margin-top: 16px;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
 }
-.social-background-footer:hover,
-.social-background-footer:focus {
-  background: var(--first-brand-color);
-}
+
 .social-icon-in-footer {
+  fill: var(--white-color);
+}
+
+.social-icon-background:hover > svg *,
+.social-icon-background:hover,
+.social-icon-background:focus > svg *,
+.social-icon-background:focus {
+  background-color: var(--first-brand-color);
   fill: var(--white-color);
 }
