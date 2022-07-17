@@ -122,6 +122,7 @@ nav {
     ),
     url(../images/background.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .primary-header {
   font-weight: 900;
