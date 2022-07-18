@@ -84,6 +84,7 @@ ul {
   color: var(--paragraph-color);
   letter-spacing: 0.02em;
   line-height: 1.14;
+  display: flex;
 }
 header .container {
   display: flex;
